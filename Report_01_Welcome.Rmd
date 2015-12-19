@@ -1,0 +1,71 @@
+---
+title: 'Data Science Bowl 2016: Welcome to the Hope Team!'
+author: "Paul Pearson"
+date: "December 19, 2015"
+output: html_document
+---
+
+# About the competition
+
+The Second Annual Data Science Bowl runs from December 14, 2015 to March 14, 2016.  Our first submission must be before February 29, 2016.  Please read the description page:
+
+- [https://www.kaggle.com/c/second-annual-data-science-bowl](https://www.kaggle.com/c/second-annual-data-science-bowl)
+
+
+# What you should do right now (before spring semester starts)
+
+- Read through everything about the competition on the Kaggle website.
+
+    - [Description](https://www.kaggle.com/c/second-annual-data-science-bowl)
+    - [Evaluation](https://www.kaggle.com/c/second-annual-data-science-bowl/details/evaluation)
+    - [Rules](https://www.kaggle.com/c/second-annual-data-science-bowl/rules)
+    - [Prizes](https://www.kaggle.com/c/second-annual-data-science-bowl/details/prizes)
+    - [About the DSB](https://www.kaggle.com/c/second-annual-data-science-bowl/details/about-the-dsb)
+    - [Resources](https://www.kaggle.com/c/second-annual-data-science-bowl/details/resources)
+    - [Deep Neural Network tutorial](https://gist.github.com/ajsander/b65061d12f50de3cef5d#file-fcn_tutorial-ipynb) (we can go through this together in January)
+    - [Fourier based tutorial](https://gist.github.com/ajsander/fb2350535c737443c4e0#file-tutorial-md) (we can go through this together in January)
+    - [Timeline](https://www.kaggle.com/c/second-annual-data-science-bowl/details/timeline)
+    - Browse the [question and answer forum](https://www.kaggle.com/c/second-annual-data-science-bowl/forums)
+    
+- Write down the problem to be solved -- be clear, concise, and complete.  Write down questions that will need to be addressed in order to analyze the data (both very specific and very broad questions).
+
+
+# Software installation
+
+When we all return to campus in January, we can meet in person to discuss installing software and exploring the data.  If you have time and interest, please get a jump start on installing and using the software.  If I have time, I will make a tutorial on feature engineering and share it with you before school starts.
+
+## Python
+
+The [Deep Neural Network tutorial](https://gist.github.com/ajsander/b65061d12f50de3cef5d#file-fcn_tutorial-ipynb) and the [Fourier based tutorial](https://gist.github.com/ajsander/fb2350535c737443c4e0#file-tutorial-md) provided on the competition website both use Python.  I have not used Python very much, but I want to use it more in the future, so why not start now?
+
+- Follow the intstructions for installing [Anaconda Python and the Jupyter notebook](http://jupyter.readthedocs.org/en/latest/install.html#new-users-new-to-python-and-jupyter)
+
+- Run the Jupyter notebook using [these instructions](http://jupyter.readthedocs.org/en/latest/running.html#running)
+
+
+## R and R Studio statistics software
+
+I have used R a lot and am very comfortable using it in this competition.
+
+- Download R statistics software [for windows](https://cran.rstudio.com/bin/windows/base/), [mac](https://cran.rstudio.com/bin/macosx/) and install it.
+
+- After installing R, download [R studio](https://www.rstudio.com/products/rstudio/download/) and install it.
+
+## DICOM file viewers
+
+The data page describes the data and DICOM files.  On this page, there are links to DICOM file viewers for Mac (OsiriX) and Windows (Mango).
+
+- [https://www.kaggle.com/c/second-annual-data-science-bowl/data](https://www.kaggle.com/c/second-annual-data-science-bowl/data)
+
+
+## Git (version control software)
+
+- [Github desktop](https://desktop.github.com/) is probably the easiest way to install git.
+
+# What you do **not** need to do right now
+
+- You do **not** need to register on Kaggle right now.  Eventually, you will need to register, but let's hold off on registration until we have identified everyone at Hope who is interested in being on the team.
+
+- You do **not** need to download the data (the data are 18+ gigabytes zipped!).  I have already downloaded the data and will share it with you.
+
+- You do **not** need to make a submission.
