@@ -1,0 +1,60 @@
+---
+title: "Finding the Center of a Circle"
+author: "Paul Pearson"
+date: "December 19, 2015"
+output: pdf_document
+---
+
+# Finding the center of a circle
+
+Here is the tiny $20$ pixel by $15$ pixel image that we will analyze:
+
+![White disk on black background](find_the_center_example.jpg)
+
+We now read this image into R as an array (with three indices: two for pixel location and one for color) and flatten it to a grayscale image by averaging the RGB color channels.
+
+```{r}
+# read the image into an array
+library(jpeg)
+img <- readJPEG("find_the_center_example.jpg",native=FALSE)
+str(img) # what is the structure of img?
+img.gray <- (img[,,1] + img[,,2] + img[,,3])/3 # flatten to grayscale
+str(img.gray) # what is the structure of img.gray?
+```
+
+Let's plot the `img.gray` matrix in grayscale and large, so that we can see individual pixels.
+
+```{r, fig.width=3, fig.height=4}
+image( t(img.gray[20:1,]), 
+       col = grey(seq(0, 1, length = 256)), # make it grayscale
+       xaxt= "n", yaxt= "n" # do not plot axes
+       )
+```
+
+# The image is now just a matrix
+
+When we print the `img.gray` object, we notice that the values are all between 0 and 1, with black pixels taking the value 0 and white pixels taking the value 1.
+
+```{r}
+img.gray # print the values in the matrix
+```
+
+# Examining the properties of the matrix
+
+When we print the $20$ row sums of the matrix, we notice that row $7$ has the largest row sum.
+
+```{r}
+rowSums(img.gray)
+which.max( rowSums(img.gray) ) # return the index of the row that has the max row sum
+```
+
+Similarly, when we print the $15$ column sums for this matrix, we notice that column $9$ has the largest column sum.
+
+```{r}
+colSums(img.gray)
+which.max( colSums(img.gray) ) # return the index of the column that has the max column sum
+```
+
+So, a good estimate for the center of the white region in the image is row $7$ and column $9$.  Why does this work?  Because the more white pixels there are in a row (or a column), the larger the sum will be.  When the row sum (or column sum) is largest, we have found a diameter for the white disk-shaped region.  We are exploiting the fact that the region outside of the white disk is uniformly black.
+
+Thought question: Will this method always work well to find the center of the white region?  When will it work well? When will it fail?
