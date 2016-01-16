@@ -1,0 +1,29 @@
+---
+title: "Data Science Bowl Resources"
+author: "Paul Pearson"
+date: "January 14, 2016"
+output: html_document
+---
+
+# Working through the Left Ventricle Segmentation Tutorial
+
+- Link to the Left Ventricle Segmentation Tutorial as a [GitHub Gist](https://gist.github.com/ajsander/fb2350535c737443c4e0#file-tutorial-md) or the [post on the Kaggle website](https://www.kaggle.com/c/second-annual-data-science-bowl/details/fourier-based-tutorial)
+
+- Link to the article by [Lin, et al. (2006)](https://www.researchgate.net/publication/6452142_Automated_Detection_of_Left_Ventricle_in_4D_MR_Images_Experience_from_a_Large_Study)
+
+## Abbreviations and terms
+
+- LV = Left Ventricle
+
+- Image segmentation: "The goal of image segmentation is to divide an image into a set of semantically meaningful, homogeneous, and nonoverlapping regions of similar attributes such as intensity, depth, color, or texture. The segmentation result is either an image of labels identifying each homogeneous region or a set of contours which describe the region boundaries." [MRI Segmentation of the Human Brain: Challenges, Methods, and Applications](http://www.hindawi.com/journals/cmmm/2015/450341/)
+
+- ROI = circular Region Of Interest
+
+# FAQ
+
+- [The FAQ on the Kaggle forum](https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/17885/frequently-asked-questions)
+
+# Videos
+
+- The video [2nd Annual Data Science Bowl: Q&A with Dr. Michael Hansen and Dr. Andrew Arai, NIH/NHLBI](https://www.youtube.com/watch?v=wXUt_vjrF0c&feature=youtu.be) is in response to this [forum question](https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/18346/answers-q-a-with-principle-investigators-michael-hansen-ph-d-and-dr-andrew)
+
