@@ -1,9 +1,18 @@
 ---
-title: "Data Science Bowl Resources"
+title: "Working Through the Left Ventricle Image Segmentation (Fourier) tutorial"
 author: "Paul Pearson"
 date: "January 14, 2016"
 output: html_document
 ---
+
+# Software to install
+
+- [Jupyter and Anaconda Python](http://jupyter.readthedocs.org/en/latest/install.html#new-to-python-and-jupyter)
+
+- The tutorial I used to get OpenCV to work on Windows 7 is [OpenCV (Open Computer Vision) installation on Windows for use as a Python package](http://mathalope.co.uk/2015/05/07/opencv-python-how-to-install-opencv-python-package-to-anaconda-windows/).  I do not think it is necessary for you to install the FFMPEG (video codec), since we are processing images (not videos).  There are [other ways to install OpenCV given on StackOverflow](http://stackoverflow.com/questions/23119413/how-to-install-python-opencv-through-conda)
+
+- [Mango desktop dicom file viewer for Windows](http://ric.uthscsa.edu/mango/mango.html)
+
 
 # Working through the Left Ventricle Segmentation Tutorial
 
@@ -19,6 +28,8 @@ output: html_document
 
 - ROI = circular Region Of Interest
 
+- Short axis stack: The [University of Minnesota Atlas of Cardiac Anatomy](http://www.vhlab.umn.edu/atlas/cardiac-mri/index.shtml) has a [brief description of the short axis stack along with a drop down menu allowing you to choose different hearts to view](http://www.vhlab.umn.edu/atlas/cardiac-mri/short-axis-stack/index.shtml).  They say "A short axis stack shows the complete series of images taken during an MRI stack sequence scan. These images are taken at 1-4mm intervals in a plane perpendicular to the long axis of the left ventricle."
+
 # FAQ
 
 - [The FAQ on the Kaggle forum](https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/17885/frequently-asked-questions)
@@ -26,4 +37,5 @@ output: html_document
 # Videos
 
 - The video [2nd Annual Data Science Bowl: Q&A with Dr. Michael Hansen and Dr. Andrew Arai, NIH/NHLBI](https://www.youtube.com/watch?v=wXUt_vjrF0c&feature=youtu.be) is in response to this [forum question](https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/18346/answers-q-a-with-principle-investigators-michael-hansen-ph-d-and-dr-andrew)
+
 
