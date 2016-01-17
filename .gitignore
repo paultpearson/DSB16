@@ -1,2 +1,5 @@
-*.zip
-data/
+data/train.zip
+data/validate.zip
+data/train
+data/validate
+data/output
