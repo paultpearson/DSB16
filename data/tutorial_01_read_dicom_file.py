@@ -12,6 +12,13 @@ Created on Sat Jan 16 19:08:19 2016
 #  Comments on running this file
 
 """
+To run this file, you will need Anaconda Python installed and also the 
+pydicom package, which can be installed by running
+
+    pip install pydicom
+    
+at the windows command prompt.
+
 The files are organized as follows:
 
     tutorial_01_read_dicom_file.py
@@ -19,7 +26,7 @@ The files are organized as follows:
 
 Open "tutoral_01_read_dicom_file.py" in Spyder (Python 2.7).
 In Spyder, click the green "run" arrow.
-The output should be visible in the console panel of Spyder. 
+The output should be visible in the console panel of Spyder.
 """
 
 #####################################
