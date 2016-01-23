@@ -57,7 +57,8 @@ def dicom_to_array(filename):
     a = d.pixel_array
     return np.array(a)
 
-t = 1
+t = 1 # choose slice 1
+# the "%04d" below gets replaced by the value of t as a 4 character positive integer with leading zeros
 path_to_file = os.path.join("train","1","study","sax_5","IM-4557-%04d.dcm" % t)
 a1 = dicom_to_array(path_to_file)
 
